@@ -20,7 +20,7 @@ function App() {
     <div className={`w-full flex sm:max-w-[1280px]`}>
       <main className={`flex flex-col w-2/3 p-8 gap-8`}>
           <div className={`text-4xl font-medium`}>
-              <h1>My Bakery</h1>
+              <h1>Lingyu's Bakery</h1>
           </div>
         <div className={`grid grid-cols-1 md:grid-cols-2 gap-4`}>
           {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
